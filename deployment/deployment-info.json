@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-07-16T20:44:26.650Z",
+  "network": "mainnet",
+  "operator": "0.0.9083680",
+  "guardianToken": "0.0.9376140",
+  "verificationTopic": "0.0.9376141",
+  "complianceTopic": "0.0.9376142",
+  "status": "DEPLOYED"
+}

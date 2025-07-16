@@ -1,0 +1,32 @@
+{
+  "name": "edai-deployment",
+  "version": "1.0.0",
+  "description": "E.D.A.I. Hedera Network Deployment Scripts",
+  "main": "deploy-edai.js",
+  "scripts": {
+    "deploy": "node deploy-edai.js",
+    "deploy-testnet": "node deploy-testnet.js",
+    "mint-guardian": "node mint-guardian.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "edai",
+    "hedera",
+    "ai-verification",
+    "ethical-ai",
+    "guardian-credentials"
+  ],
+  "author": "ethicsbuild",
+  "license": "MIT",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.49.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethicsbuild/edai-hedera-network.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ethicsbuild/edai-hedera-network/issues"
+  },
+  "homepage": "https://github.com/ethicsbuild/edai-hedera-network#readme"
+}
