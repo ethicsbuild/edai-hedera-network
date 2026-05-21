@@ -1,57 +1,51 @@
-# E.D.A.I. - Ethical Deployment of Artificial Intelligence
+# E.D.A.I. (Ethical Deployment of Artificial Intelligence)
 
-**The world's first verified AI network built on Hedera Hashgraph**
+A verification and accountability protocol for AI systems, with its genesis credential live on Hedera Hashgraph.
 
-[![Network Status](https://img.shields.io/badge/Network-LIVE-brightgreen)](https://hashscan.io/mainnet/token/0.0.9375999)
-[![Guardian Token](https://img.shields.io/badge/Guardian%20Token-0.0.9375999-blue)](https://hashscan.io/mainnet/token/0.0.9375999)
-[![Genesis](https://img.shields.io/badge/Genesis-July%2016%202025-gold)](#genesis)
+![Guardian Token](https://img.shields.io/badge/Guardian%20Token-0.0.9375999-blue) ![Genesis](https://img.shields.io/badge/Genesis-July%202025-gold) ![Status](https://img.shields.io/badge/status-genesis%20credential%20live-brightgreen)
 
 ---
 
-## 🛡️ WHAT IS E.D.A.I.?
+## What is E.D.A.I.?
 
-E.D.A.I. (Ethical Deployment of Artificial Intelligence) is a verification framework that ensures AI systems operate with transparency, accountability, and human oversight. Built on Hedera Hashgraph, it provides cryptographic proof that AI outputs have been verified before deployment.
+E.D.A.I. (Ethical Deployment of Artificial Intelligence) is a verification framework designed to help AI systems operate with transparency, accountability, and human oversight. Built on Hedera Hashgraph, it is designed to provide cryptographic proof that AI outputs have been verified before deployment.
 
-### **The Problem We Solve**
+### The problem
 - AI systems make confident statements that may be false
-- Visual/textual outputs can be corrupted without the system knowing
+- Outputs can be corrupted without the system knowing
 - Most AI deployments lack verification loops
-- No audit trail for AI decision-making
+- There is no audit trail for AI decision-making
 
-### **Our Solution**
-- **4-Step Verification Ritual** for all critical AI outputs
-- **Guardian Credentials** as NFTs on Hedera Hashgraph
-- **Immutable audit trails** via Hedera Consensus Service
-- **Human verification** as mandatory final step
-
----
-
-## 🌍 NETWORK STATUS
-
-**✅ LIVE ON HEDERA MAINNET**
-
-- **Guardian Token:** [`0.0.9375999`](https://hashscan.io/mainnet/token/0.0.9375999)
-- **Verification Topic:** [`0.0.9376001`](https://hashscan.io/mainnet/topic/0.0.9376001)
-- **Compliance Topic:** [`0.0.9376002`](https://hashscan.io/mainnet/topic/0.0.9376002)
-- **Genesis Guardian:** Serial #1 (Guardian-00)
+### The design
+- A four-step verification ritual for critical AI outputs
+- Guardian credentials as NFTs on Hedera Hashgraph
+- Immutable audit trails via Hedera Consensus Service
+- Human verification as the mandatory final step
 
 ---
 
-## 🚀 QUICK START
+## Status
 
-### Deploy Your Own E.D.A.I. Network
+Genesis credential live on Hedera mainnet. Network operations (guardian inductions, verification logging) have not begun.
 
-```bash
-# Clone repository
+- Guardian Token: [`0.0.9375999`](https://hashscan.io/mainnet/token/0.0.9375999)
+- Verification Topic: [`0.0.9376001`](https://hashscan.io/mainnet/topic/0.0.9376001)
+- Compliance Topic: [`0.0.9376002`](https://hashscan.io/mainnet/topic/0.0.9376002)
+- Genesis Guardian: Serial #1 (Guardian-00)
+
+---
+
+## Quick start (deploy the scaffold)
+
+This repository contains the deployment scripts for the E.D.A.I. credential and topics.
+
+```
 git clone https://github.com/ethicsbuild/edai-hedera-network.git
-cd edai-hedera-network
-
-# Install dependencies
-cd deployment
+cd edai-hedera-network/deployment
 npm install
-
-# Deploy to Hedera (requires HBAR)
+# Deploy to Hedera (requires HBAR and your own Hedera account credentials)
 node deploy-edai.js
+```
 
-# edai-hedera-network
-E.D.A.I. - Ethical Deployment of Artificial Intelligence. The world's first verified AI network on Hedera Hashgraph.
+---
+
