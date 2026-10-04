@@ -1,6 +1,8 @@
 # E.D.A.I. Institutional Deployment Guide
 
-This guide outlines the process for institutions (e.g. hospitals, law firms, financial orgs, universities) to properly implement, govern, and verify E.D.A.I. deployments. The protocol assumes the use of Hedera Hashgraph and includes technical and philosophical safeguards to maintain integrity at scale.
+**Status: design, not in use.** No institution has deployed E.D.A.I. This guide describes how a deployment was meant to work; none of its phases past infrastructure setup have been carried out, and the Registry, Ark Mirror, and Witness Layer do not exist yet.
+
+This guide outlines the proposed process for institutions (e.g. hospitals, law firms, financial orgs, universities) to implement, govern, and verify E.D.A.I. deployments. The protocol assumes the use of Hedera Hashgraph and includes technical and philosophical safeguards to maintain integrity at scale.
 
 ---
 
