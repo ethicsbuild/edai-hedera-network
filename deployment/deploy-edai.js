@@ -3,7 +3,8 @@
 /**
  * E.D.A.I. HEDERA MAINNET DEPLOYMENT SCRIPT
  * 
- * Deploys the complete E.D.A.I. verification network to Hedera Hashgraph
+ * Creates the E.D.A.I. credential token and logging topics on Hedera Hashgraph.
+ * Running it again creates a new, separate set. The set in use is in deployment-info.json.
  * 
  * Requirements:
  * - Hedera account with sufficient HBAR (~10 for full deployment)
@@ -73,7 +74,7 @@ async function deployEDAI() {
             .setSupplyKey(privateKey)
             .setAdminKey(privateKey)
             .setMetadataKey(privateKey)
-            .setTokenMemo("E.D.A.I. Guardian Credentials - Verified AI Network")
+            .setTokenMemo("E.D.A.I. Guardian Credentials (prototype)")
             .setMaxTransactionFee(new Hbar(10))
             .execute(client);
         
@@ -114,7 +115,7 @@ async function deployEDAI() {
         
         // Deployment Summary
         log("\n" + "=" * 60, 'blue');
-        log("🎉 E.D.A.I. MAINNET DEPLOYMENT COMPLETE!", 'green');
+        log("E.D.A.I. infrastructure created on mainnet", 'green');
         log("=" * 60, 'blue');
         
         const deploymentInfo = {
@@ -124,7 +125,7 @@ async function deployEDAI() {
             guardianToken: tokenId.toString(),
             verificationTopic: verificationTopicId.toString(),
             complianceTopic: complianceTopicId.toString(),
-            status: 'DEPLOYED'
+            status: 'PROTOTYPE'
         };
         
         console.table(deploymentInfo);
@@ -138,9 +139,9 @@ async function deployEDAI() {
         log("1. Run 'node mint-guardian.js' to create your first guardian", 'yellow');
         log("2. Begin guardian induction ceremonies", 'yellow');
         log("3. Start logging verification events to HCS", 'yellow');
-        log("4. Share network details with institutions", 'yellow');
+        log("4. Record what exists and what does not before sharing it", 'yellow');
         
-        log("\n🌍 The world's first verified AI network is LIVE!", 'green');
+        log("\nInfrastructure created. Nothing is verified until verification events are logged.", 'green');
         
         // Save deployment info to file
         const fs = require('fs');

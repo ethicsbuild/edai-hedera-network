@@ -28,7 +28,7 @@ E.D.A.I. (Ethical Deployment of Artificial Intelligence) is a verification frame
 
 ## Status
 
-**Prototype.** As of 2026-09-30, read from the public mirror node:
+**Prototype.** As of 2026-10-04, read from the public mirror node:
 
 - One Guardian credential minted (Guardian-00, July 16, 2025). No further inductions.
 - Verification topic: one message, sequence 1, posted 2026-09-30. It is the pre-registration of Field Test 001, a record of a promise, not a verification event. The count of verification events is zero.
@@ -41,6 +41,10 @@ The July 2025 investor white paper is superseded. The current account of what ex
 - Verification Topic: [`0.0.9376001`](https://hashscan.io/mainnet/topic/0.0.9376001)
 - Compliance Topic: [`0.0.9376002`](https://hashscan.io/mainnet/topic/0.0.9376002)
 - Genesis Guardian: Serial #1 (Guardian-00)
+
+A second, unused set exists from a duplicate run of the deploy script an hour after the first, on July 16, 2025: token `0.0.9376140` and topics `0.0.9376141` and `0.0.9376142`. Nothing has been minted or logged there. The IDs above are the set in use. See [GENESIS.md](GENESIS.md).
+
+The on-chain token memo still reads "Verified AI Network," written in July 2025. It overstates what exists. Changing it requires the account key; until then, read it as the July 2025 language that GENESIS.md corrects. Any change will leave the original visible in the ledger history.
 
 ---
 

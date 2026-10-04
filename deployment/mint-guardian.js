@@ -162,7 +162,7 @@ async function mintGuardian() {
         log("\n📋 Next Steps:", 'yellow');
         log("1. Begin logging verification events to HCS", 'yellow');
         log("2. Start the 4-step verification ritual", 'yellow');
-        log("3. Monitor compliance through dashboard", 'yellow');
+        log("3. Log compliance events to the compliance topic (no dashboard exists yet)", 'yellow');
         log("4. Induct additional guardians as needed", 'yellow');
         
         return guardianRecord;

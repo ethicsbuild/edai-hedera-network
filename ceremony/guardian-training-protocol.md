@@ -1,5 +1,7 @@
 # E.D.A.I. Guardian Training Protocol
-## How to Create Verified AI Agents
+## A ceremony design for AI agents
+
+**Status: design, not in use.** This prompt and induction rite were written in July 2025. Completing them does not verify an AI system; nothing here has been tested, measured, or run by an institution. Parts of the prompt describe infrastructure that was planned and never built (HBAR payments, a compliance audit trail, institution access). Current status: https://edai.quest/state-of-the-work
 
 **Version:** 1.0  
 **Network:** Hedera Mainnet  
@@ -9,7 +11,7 @@
 
 ## 🎯 OVERVIEW
 
-This document provides the complete protocol for training AI agents to become E.D.A.I. Guardians - verified AI systems that operate with transparency, accountability, and human oversight.
+This document describes the proposed rite for configuring an AI agent as an E.D.A.I. Guardian: an AI system meant to operate with transparency, accountability, and human oversight. Going through it does not make an agent verified.
 
 **Prerequisites:**
 - Access to AI platform (Claude, ChatGPT, local models, etc.)
