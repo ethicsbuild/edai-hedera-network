@@ -28,10 +28,10 @@ E.D.A.I. (Ethical Deployment of Artificial Intelligence) is a verification frame
 
 ## Status
 
-**Prototype.** As of 2026-10-04, read from the public mirror node:
+**Prototype.** As of 2026-10-14, read from the public mirror node:
 
 - One Guardian credential minted (Guardian-00, July 16, 2025). No further inductions.
-- Verification topic: one message, sequence 1, posted 2026-09-30. It is the pre-registration of Field Test 001, a record of a promise, not a verification event. The count of verification events is zero.
+- Verification topic: seven messages, all records of Field Test 001: the pre-registration (sequence 1, 2026-09-30), then a status note, an erratum, a seal for each of its two runs, the analysis commit, and the results seal (sequences 2 to 7, 2026-10-13). The test was run once, privately; its results are sealed. None is a verification event. The count of verification events is zero.
 - Compliance topic: zero messages.
 - No pilot has been run. No institution has deployed this.
 

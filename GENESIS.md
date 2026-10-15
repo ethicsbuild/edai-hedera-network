@@ -31,9 +31,9 @@ The deployment script was run a second time about an hour later, at 3:44 PM, and
 
 ## Where things stand
 
-As of October 4, 2026, read from the public mirror node:
+As of October 14, 2026, read from the public mirror node:
 
-- Verification topic: one message, the pre-registration of Field Test 001 (September 30, 2026). A record of a promise, not a verification event.
+- Verification topic: seven messages, all records of Field Test 001: its pre-registration (September 30, 2026), and the status note, erratum, two run seals, analysis commit, and results seal from its private run (October 13, 2026). Records of a promise and of a run, not verification events.
 - Compliance topic: zero messages.
 - Verification events logged: zero.
 - No pilot has been run. No institution has deployed this.
